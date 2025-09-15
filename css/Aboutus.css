@@ -1,0 +1,301 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000;
+}
+
+body {
+  font-family: sans-serif;
+  height: auto; 
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.section1 {
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.section1 .contant {
+  display: flex;
+  gap: 20px;
+}
+
+.section1 .contant a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.section1 .contant i {
+  font-size: 18px;
+  color: #fff;
+  margin-right: 8px;
+  background-color: rgb(255, 145, 0);
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.section1 h1 {
+  font-style: italic;
+  color: #fff;
+}
+
+.section1 h1 span {
+  color: rgb(255, 145, 0);
+}
+
+.section2 {
+  background-image: linear-gradient(
+      45deg,
+      rgba(52, 53, 52, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../images/2 (2).jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.section2 p {
+  font-size: 35px;
+  color: #fff;
+}
+
+.section3 {
+  background-color: rgba(37, 37, 37, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+.section3 ul {
+  display: flex;
+  gap: 50px; /* بدل 300px */
+}
+
+.section3 ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+  opacity: 1;
+}
+
+ul li a:hover {
+  color: rgb(255, 145, 0);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.container main {
+  width: 50%;
+  padding: 20px;
+}
+
+main .greet {
+  margin: 5px 0;
+  color: black;
+  font-size: 22px;
+}
+
+.container main .paragraph {
+  margin: 10px 0;
+  color: #000;
+  line-height: 20px;
+  text-indent: 30px;
+}
+
+.container main .choose {
+  color: #000;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.container main ul {
+  margin: 10px 20px;
+}
+
+.container main ul li {
+  color: #000;
+  line-height: 20px;
+}
+
+.container aside {
+  width: 50%;
+  padding: 20px;
+}
+
+.dealer-box {
+  background-color: rgb(219, 219, 219);
+  margin: 0 auto;
+  border: 1px solid #efefef;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+aside p {
+  color: black;
+  margin-bottom: 10px;
+}
+
+.section {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  color: black;
+}
+
+.section h3 {
+  color: black;
+  background-color: #fff;
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+  font-size: 14px;
+}
+
+.subtitle {
+  color: black;
+  background-color: #fff;
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.closed {
+  color: rgb(255, 145, 0);
+  font-weight: bold;
+}
+
+footer {
+  width: 100%;
+  background-color: rgb(219, 219, 219);
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.left {
+  width: 50%;
+}
+
+.left p {
+  font-weight: 500;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.right a {
+  color: rgb(255, 148, 7);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 19px;
+}
+
+.right .icons {
+  margin-top: 10px;
+}
+
+.right .icons i {
+  font-size: 20px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: rgb(134, 76, 1);
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.clear {
+  clear: both;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .container main,
+  .container aside {
+    width: 100%;
+  }
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .left,
+  .right {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section1 {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .section1 .contant {
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+  }
+  .section2 p {
+    font-size: 24px;
+  }
+  .section3 ul {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  main .greet {
+    font-size: 18px;
+    text-align: center;
+  }
+  .right .icons i {
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+  }
+}

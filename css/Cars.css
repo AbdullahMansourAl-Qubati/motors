@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    color:#fff;
+}
+body{
+    background-color: rgb(37, 37, 37);
+    height: 100vh;
+    font-family: sans-serif;
+ 
+}
+header{
+    height: 15%;
+    display:flex;
+    flex-direction: column;
+
+}
+.logo{
+height:70%;
+display:flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+.logo .contant {
+    display: flex;
+    gap:18%;
+}
+.logo .contant a{
+    display: flex;
+    gap:10%;
+}
+
+.logo .contant i {
+    font-size: 20px;
+    color: #ffffff;
+    margin-right: 10px;
+    background-color:rgb(255, 145, 0);
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+.logo h1{
+    font-style: italic;
+}
+.logo h1 span{
+color:rgb(255, 145, 0);
+}
+
+.nav{
+    height: 30%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav ul{
+display: flex;
+gap:20px;
+}
+.nav ul li{
+    display: inline-block;
+}
+.nav ul li a{    
+ text-decoration: none;
+ font-weight: 700;
+  color:rgb(0, 0, 0);
+  opacity:1.5;
+}
+.nav ul li a:hover{    
+  color:rgb(255, 145, 0);
+  opacity:1;
+}
+
+
+
+
+
+
+.countair{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+.car{
+    display: flex;
+    flex-direction: column;
+    width:23%;
+    height:230px ;
+    background-color: rgb(137, 107, 107);
+    margin:1%;
+   transition: 0.5s;
+   position: relative;
+
+
+}
+.car:hover{
+    transform: scale(1.1);
+}
+.car p{
+
+    position: absolute;
+    top:2px;
+
+    padding:5px;
+    font-size: 13px;
+    font-weight: 700;
+    background-color: rgb(7, 139, 255,0.977);
+    color: #fff;
+    text-align: center;
+    
+   
+}
+
+.car .content-car{
+    background-color: rgba(3, 8, 3, 0.5);
+    width: 100%;
+    height:30% ;
+    position: absolute;
+    top:70%;
+
+}
+
+.car .content-car .name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+.car .content-car .name a{
+    position: absolute;
+    right:20px;
+    top:17px;
+    background-color:rgb(7, 139, 255);
+    margin-top: 10px;
+    padding-bottom: 25px;
+    color:#fff;
+    font-weight: 700;
+}
+.car .content-car .name h3{
+    margin:1px 10px;
+    color:#fff
+
+   
+}
+.car  .content-car a{
+    background-color:rgb(255, 145, 0);
+    padding:7px;
+    position: absolute;
+    bottom: 10px;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.car .image_car{
+    height: 70%;
+
+    background-position: center;
+    background-size: cover;
+}
+ .car-1 .image_car{
+    background-image:url("../images/1.jpeg");
+
+}
+ .car-2 .image_car{
+    background-image:url("../images/2.jpeg");
+
+}
+ .car-3 .image_car{
+    background-image:url("../images/3.jpeg");
+
+}
+ .car-4 .image_car{
+    background-image:url("../images/4.jpeg");
+
+}

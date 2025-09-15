@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section --></head>
+<body>
+    <header>
+        <div class="logo">
+           <h1><span>m</span>otros</h1>
+            <div class="contant">
+            <p>loactinloactinloactin</p>
+            <p>phonenumber</p>
+            </div>
+            </div>
+        <div class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="../Cars/index.html">Cars</a></li>
+                    <li><a href="../About Us/index.html">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        
+    </header>
+<div class="container">
+<main>
+ <div>
+	</div>
+</main>
+<footer>
+<div class="text">
+    <h2>CAR DEALER <span>WORDPRESS THENE</span></h2>
+    <p>car</p>
+</div>
+<div class="linkcar">
+    <a href="#">NEW CARS</a>
+    <a href="#">USED CARS</a>
+    <a href="../Cars/index.html">CARS</a>
+</div>
+</footer>
+</div>
+</body>
+</html>

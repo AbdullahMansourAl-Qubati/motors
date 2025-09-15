@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    color:#fff;
+}
+body{
+    background-color: rgb(37, 37, 37);
+    height: 100vh;
+    font-family: sans-serif;
+ 
+}
+header{
+    height: 15%;
+    display:flex;
+    flex-direction: column;
+
+}
+.logo{
+height:70%;
+display:flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+.logo .contant {
+    display: flex;
+    gap:18%;
+}
+.logo .contant a{
+    display: flex;
+    gap:10%;
+}
+
+.logo .contant i {
+    font-size: 20px;
+    color: #ffffff;
+    margin-right: 10px;
+    background-color:rgb(255, 145, 0);
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+.logo h1{
+    font-style: italic;
+}
+.logo h1 span{
+color:rgb(255, 145, 0);
+}
+
+.nav{
+    height: 30%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav ul{
+display: flex;
+gap:20px;
+}
+.nav ul li{
+    display: inline-block;
+}
+.nav ul li a{    
+ text-decoration: none;
+ font-weight: 700;
+  color:rgb(0, 0, 0);
+  opacity:1.5;
+}
+.nav ul li a:hover{    
+  color:rgb(255, 145, 0);
+  opacity:1;
+}
+.container{
+    height: 85%;
+    display:flex;
+    flex-direction: column;
+
+}
+
+
+main {
+  height: auto; /* أفضل من 85% */
+ background-image: url("../images/5.jpg");
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+#wowslider-container1 {
+  max-width: 100%;
+  width: 900px; /* الحجم الأساسي على الكمبيوتر */
+  margin: auto;
+}
+
+#wowslider-container1 img {
+  width: 100% !important;   /* يجعل الصور تتأقلم */
+  height: auto !important;  /* يحافظ على النسبة */
+}
+
+
+/* للشاشات الصغيرة (موبايل) */
+@media (max-width: 576px) {
+  #wowslider-container1 {
+    width: 100%;  /* يغطي الشاشة كاملة */
+  }
+}
+
+/* للشاشات المتوسطة (تابلت) */
+@media (max-width: 992px) {
+  #wowslider-container1 {
+    width: 90%; 
+  }
+}
+
+footer{
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    height:50%;
+    display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap:10%;
+}
+.text h2 span{
+   color:rgb(255, 145, 0);
+}
+.linkcar{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   gap:0%;
+}
+.linkcar a{
+    background-color: rgb(86, 86, 86);
+    color: #939292;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    width:130px;
+    text-decoration: none;
+    margin-left:3px;
+    font-weight: 600;
+}
+.linkcar a:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(255, 145, 0);
+}
