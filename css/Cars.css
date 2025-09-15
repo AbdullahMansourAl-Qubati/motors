@@ -32,7 +32,7 @@ align-items: center;
     gap:10%;
 }
 
-.logo .contant i {
+.logo .contant a i {
     font-size: 20px;
     color: #ffffff;
     margin-right: 10px;
@@ -179,3 +179,4 @@ gap:20px;
     background-image:url("../images/4.jpeg");
 
 }
+
